@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`restyles renders elements with styles 1`] = `
+.css-4h4i2w:active,
+[data-css-4h4i2w]:active {
+  font-size: 0.8em;
+}
+
+.css-4h4i2w:after,
+[data-css-4h4i2w]:after {
+  content: " after";
+  color: red;
+}
+
+.css-4h4i2w:before,
+[data-css-4h4i2w]:before {
+  content: "before ";
+  color: green;
+}
+
+.css-4h4i2w:focus,
+[data-css-4h4i2w]:focus {
+  color: blue;
+}
+
+.css-4h4i2w:hover,
+[data-css-4h4i2w]:hover {
+  color: purple;
+}
+
+.css-4h4i2w:visited,
+[data-css-4h4i2w]:visited {
+  color: #5EDA7E;
+}
+
+<div
+  className="css-4h4i2w"
+/>
+`;
+
+exports[`restyles renders elements with styles 2`] = `
+.css-5c4x45:after,
+[data-css-5c4x45]:after {
+  content: " after";
+  color: red;
+}
+
+<h1
+  className="css-5c4x45"
+/>
+`;
+
+exports[`restyles renders elements with styles 3`] = `
+.css-42g7tz:hover div,
+[data-css-42g7tz]:hover div {
+  color: blue;
+}
+
+<h1
+  className="css-42g7tz"
+>
+  <h1>
+    Blue H1 on hover
+  </h1>
+</h1>
+`;
