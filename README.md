@@ -30,6 +30,7 @@ npm install -S glamorous-pseudo
   <h1>Hello</h1>
 </Pseudo>
 
+
 // Create your own ui library
 const A = (props) => <Pseudo {...props} component={glamorous.A} />
 
