@@ -1,6 +1,6 @@
 {
   "name": "glamorous-pseudo",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "cssinjss",
   "jsnext:main": "dist/glamorous-pseudo.es.js",
   "module": "dist/glamorous-pseudo.es.js",
