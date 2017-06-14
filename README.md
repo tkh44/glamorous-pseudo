@@ -44,6 +44,7 @@ const A = (props) => <Pseudo {...props} component={glamorous.A} />
 
 ## Props
 
+
 #### component `GlamorousComponent`
 
 ```jsx
